@@ -1,4 +1,13 @@
 package mod1;
-public class Q3 {
 
+class rectangle implements ShapeQ3 {
+    public double area(int l, int b) {
+        return l* b;
+    }
+}
+public class Q3 {
+public static void main(String[] args) {
+    rectangle a = new rectangle();
+    System.out.println("area of rectangle: " +a.area(5,2) );
+}
 }
