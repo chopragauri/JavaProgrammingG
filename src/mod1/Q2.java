@@ -1,24 +1,24 @@
 package mod1;
+class Operation2 {
+    public void calc(int a, int b) {
+        System.out.println("base operation undefined!!");
+    }
+}
+class Addition extends Operation2 {
+    @Override
+    public void calc(int a, int b) {
+        System.out.println("sum: " + (a + b));
+    }
+}
+class Subtraction extends Operation2 {
+    @Override
+    public void calc(int a, int b) {
+        System.out.println("difference: " + (a - b));
+    }
+}
 public class Q2 {
-    static class Operation {
-        public void calc(int a, int b) {
-            System.out.println("base operation undefined!!");
-        }
-    }
-    static class Addition extends Operation {
-        @Override
-        public void calc(int a, int b) {
-            System.out.println("sum: " + (a + b));
-        }
-    }
-    static class Subtraction extends Operation {
-        @Override
-        public void calc(int a, int b) {
-            System.out.println("difference: " + (a - b));
-        }
-    }
     public static void main(String[] args) {
-        Operation op;
+        Operation2 op;
         op = new Addition();
         op.calc(6, 12);
         op = new Subtraction();

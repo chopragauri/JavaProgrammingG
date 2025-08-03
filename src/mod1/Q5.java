@@ -1,24 +1,21 @@
 package mod1;
-public class Q5 {
-static class Animal{
-    public void sound(){
-        System.out.println("animal undefined");
+//import mod1.Animal;
+//import mod1.Dog;
+class Animals{
+    void sound(){
+        System.out.println("generic animal sound");
     }
 }
-static class Dog extends Animal{
+class dog extends Animals{
     @Override
-    public void sound(){
+    void sound(){
         System.out.println("dog barks");
     }
 }
-static class Cat extends Animal{
-    @Override
-    public void sound(){
-        System.out.println("cat meOws");
-    }
-}
+public class Q5 {
 public static void main(String[] args) {
-    Animal a = new Dog();
+    Animals a = new dog();
     a.sound();
+//    a.makeSound();
     }
 }

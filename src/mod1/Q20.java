@@ -1,11 +1,9 @@
 package mod1;
 //import java.util.Scanner;
-public class Q20 {
-static class Largest{
+class Largest{
     int max;
-
-   public void getMax(int a , int b , int c){
-       if(a>b && a>c){
+    public void getMax(int a , int b , int c){
+        if(a>b && a>c){
             max=a;
             System.out.println("The largest value is: "+ max);
         }else if(b>a && b>c){
@@ -15,10 +13,11 @@ static class Largest{
             max=c;
             System.out.println("The largest value is: "+ max);
         }else {
-           System.out.println("all values are equal.");
-       }
-   }
+            System.out.println("all values are equal.");
+        }
+    }
 }
+public class Q20 {
 public static void main(String[] args) {
     Largest max = new Largest();
     max.getMax(6,7,9);

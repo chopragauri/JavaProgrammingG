@@ -1,5 +1,4 @@
 package mod1;
-
 public class Q32 {
     public static void main(String[] args) {
         int a=6;
