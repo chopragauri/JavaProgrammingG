@@ -1,5 +1,4 @@
 package mod1;
-
 public class Q4 {
     static class Operation {
         public void calc(int a, int b) {

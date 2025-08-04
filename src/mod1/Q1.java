@@ -1,23 +1,23 @@
 package mod1;
-public class Q1 {
-    static class BankAccount {
-        private String name;
-        private double balance;
+class BankAccount {
+    private String name;
+    private double balance;
 
-        public BankAccount(String name, double balance) {
-            this.name = name;
-            this.balance = balance;
-        }
-        public String getName() {
-            return name;
-        }
-        public double getBalance() {
-            return balance;
-        }
-        public void deposit(double amount) {
-            balance += amount;
-        }
+    public BankAccount(String name, double balance) {
+        this.name = name;
+        this.balance = balance;
     }
+    public String getName() {
+        return name;
+    }
+    public double getBalance() {
+        return balance;
+    }
+    public void deposit(double amount) {
+        balance += amount;
+    }
+}
+public class Q1 {
     public static void main(String[] args) {
         BankAccount account = new BankAccount("Gauri Chopra", 6000.0);
         account.deposit(500.0);
