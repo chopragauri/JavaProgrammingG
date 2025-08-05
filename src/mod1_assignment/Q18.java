@@ -1,5 +1,4 @@
 package mod1_assignment;
-
 public class Q18 {
     public static void main(String[] args) {
         int[] arr= {0,6,1,2,0,5};
