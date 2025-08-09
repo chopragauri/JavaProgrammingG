@@ -1,3 +1,5 @@
+package labExp;
+
 class NewThread extends Thread{
    @Override
     public void run(){

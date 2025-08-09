@@ -1,3 +1,5 @@
+package labExp;
+
 abstract class NewThread1 implements Runnable{
     @Override
     public void run(){
