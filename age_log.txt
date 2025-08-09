@@ -1,0 +1,2 @@
+Aug 09, 2025 2:29:13 PM mod2_assignment.Q9 lambda$main$0
+WARNING: Age 16 is not eligible.

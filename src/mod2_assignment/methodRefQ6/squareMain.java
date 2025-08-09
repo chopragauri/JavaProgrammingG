@@ -1,4 +1,4 @@
-package mod2_assignment.methodRefQ5;
+package mod2_assignment.methodRefQ6;
 
 public class squareMain {
     public static double findSquare(int n) {
