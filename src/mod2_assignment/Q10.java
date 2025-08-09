@@ -20,7 +20,7 @@ public class Q10 {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {5, -3}; // Java 8 style — array loop
+        int[] numbers = {5, -3};
 
         for (int num : numbers) {
             try {
