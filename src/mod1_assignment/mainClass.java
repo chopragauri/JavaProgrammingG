@@ -1,5 +1,5 @@
 package mod1_assignment;
-import mod2_assignment.utils.mathUtils;
+import mod2_assignment.utilities.mathUtils;
 public class mainClass {
         public static void main(String[] args) {
             mathUtils math = new mathUtils();
