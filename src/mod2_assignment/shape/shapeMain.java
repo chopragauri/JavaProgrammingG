@@ -1,4 +1,4 @@
-package shape;
+package mod2_assignment.shape;
 
 public class shapeMain {
     public static void main(String[] args) {

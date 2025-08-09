@@ -1,4 +1,4 @@
-package shape;
+package mod2_assignment.shape;
 public class circle implements Shape{
     private double l;
     double b=3.14;
