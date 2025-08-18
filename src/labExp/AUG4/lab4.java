@@ -1,4 +1,4 @@
-package labExp;
+package labExp.AUG4;
 
 class NewThread extends Thread{
    @Override

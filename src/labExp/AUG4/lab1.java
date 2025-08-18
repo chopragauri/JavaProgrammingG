@@ -1,4 +1,4 @@
-package labExp;
+package labExp.AUG4;
 
 public class lab1 {
     public static void main(String[] args) {

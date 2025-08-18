@@ -1,5 +1,4 @@
 package labExp.Aug11;
-
 class Person {
     String name;
     int age;

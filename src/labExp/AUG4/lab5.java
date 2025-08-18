@@ -1,4 +1,4 @@
-package labExp;
+package labExp.AUG4;
 
 abstract class NewThread1 implements Runnable{
     @Override

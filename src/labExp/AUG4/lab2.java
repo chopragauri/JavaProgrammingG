@@ -1,5 +1,4 @@
-package labExp;
-
+package labExp.AUG4;
 class InvalidAgeException extends Exception {
     public InvalidAgeException(String message) {
         super(message);
