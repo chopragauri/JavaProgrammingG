@@ -1,5 +1,4 @@
 package mod3;
-
 class  MyRunnable implements Runnable {
     public void run() {
         System.out.println("thread is running");

@@ -1,5 +1,4 @@
 package labExp.Aug18;
-import java.util.concurrent.ThreadLocalRandom;
 class GreetingThread extends Thread {
     private String message;
     public GreetingThread(String name,String message) {
@@ -9,15 +8,12 @@ class GreetingThread extends Thread {
     @Override
     public void run() {
         for (int i = 1; i <= 5; i++) {
-            System.out.println(getName() + ": " + message + " (count " + i + ")");
+            System.out.println(getName() + ": " + message);
             try {
-                Thread.sleep(ThreadLocalRandom.current().nextInt(100, 501));
+                Thread.sleep(460);
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-                System.out.println(getName() + " interrupted.");
-                break;
-            }
-        }
+                System.out.println("thread interrupted.");
+            } }
         System.out.println(getName() + " finished.");
     }
 }
