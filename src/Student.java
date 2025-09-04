@@ -1,11 +1,23 @@
 public class Student {
     int id;
     String name;
-    public void setId(int id) {
-        this.id = id;
+    int marks;
+    public int getId(){
+        return id;
     }
-    public void setName(String name) {
-        this.name = name;
+    public int getMarks(){
+        return marks;
     }
+    public String getName(){
+        return name;
     }
+    public void setId(int id){
+    }
+    public void setName(String name){
+    }
+    public void setMarks(int marks){
+    }
+
+
+}
 
