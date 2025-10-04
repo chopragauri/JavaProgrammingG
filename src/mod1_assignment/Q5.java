@@ -16,6 +16,5 @@ public class Q5 {
 public static void main(String[] args) {
     Animals a = new dog();
     a.sound();
-//    a.makeSound();
     }
 }

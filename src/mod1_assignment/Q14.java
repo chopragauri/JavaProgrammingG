@@ -1,5 +1,4 @@
 package mod1_assignment;
-
     public class Q14 {
         public static void main(String[] args) {
             int a = 10;

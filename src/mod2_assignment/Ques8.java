@@ -13,7 +13,6 @@ public class Ques8 {
             System.out.println("Access Granted - You are eligible.");
         }
     }
-
     public static void main(String[] args) {
         int[] Ages = {16, 20};
         for (int userAge : Ages) {

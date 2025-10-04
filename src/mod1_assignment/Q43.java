@@ -11,9 +11,16 @@ class SquarePrinter extends NumberPrinter {
         System.out.println("Square from child: " + (num * num));
     }
 }
+class Cube extends NumberPrinter {
+    @Override
+    void display(int num) {
+        super.display(num);
+        System.out.println("Cube from child: " + (num * num * num));
+    }
+}
 public class Q43 {
         public static void main(String[] args) {
-            SquarePrinter printer = new SquarePrinter();
+            NumberPrinter printer = new Cube();
             printer.display(7);
         }
     }

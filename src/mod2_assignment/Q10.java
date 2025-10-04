@@ -4,7 +4,6 @@ class NegativeNumberException extends Exception {
         super(message);
     }
 }
-
 public class Q10 {
     static int factorial(int n) throws NegativeNumberException {
         if (n < 0) {
@@ -20,16 +19,17 @@ public class Q10 {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {5, -3};
-
-        for (int num : numbers) {
+//        int[] numbers = {5, -3};
+//
+//        for (int num : numbers) {
             try {
-                System.out.println("Factorial of " + num + " is: " + factorial(num));
+                System.out.println("Factorial "+ factorial(-3));
             } catch (NegativeNumberException e) {
                 System.out.println("Exception caught: " + e.getMessage());
             }
-        }
-
         System.out.println("Program continues after handling exceptions.");
-    }
+        }
 }
+
+
+

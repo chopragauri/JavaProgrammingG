@@ -1,6 +1,7 @@
 package mod1_assignment;
 
 class rectangle implements ShapeQ3 {
+    @Override
     public double area(int l, int b) {
         return l* b;
     }

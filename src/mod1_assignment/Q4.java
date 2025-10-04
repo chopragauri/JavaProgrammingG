@@ -13,7 +13,6 @@ public class Q4 {
         public void calc(int a, int b, int c) {
             System.out.println("sum: " + (a + b + c));
         }
-
         public void calc(double a, double b) {
             System.out.println("sum: " + (a + b));
         }

@@ -11,9 +11,7 @@ public class Q7 {
         } catch (ArithmeticException e) {
             System.out.println("Error in try-catch: " + e.getMessage());
         }
-
-        b = 2;
-
+      b = 2;
         try {
             int result = a / b; // This will succeed
             System.out.println("Result (try-catch-finally): " + result);

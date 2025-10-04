@@ -8,9 +8,6 @@ public class Q3{
         numbers.add(30);
         numbers.add(40);
 
-        System.out.println("Numbers in the list:");
-        for (int number : numbers) {
-            System.out.println(number);
+        System.out.println("Numbers in the list:"+"\n"+ numbers);
         }
     }
-}

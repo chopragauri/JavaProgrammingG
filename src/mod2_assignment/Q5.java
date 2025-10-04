@@ -11,7 +11,6 @@ public class Q5 {
         names.add("Samridhi");
 
         names.sort((s1, s2) -> s2.compareToIgnoreCase(s1));
-        System.out.println("Strings in descending order:");
-        names.forEach(System.out::println);
+        System.out.println("Strings in descending order:" + names);
     }
 }
