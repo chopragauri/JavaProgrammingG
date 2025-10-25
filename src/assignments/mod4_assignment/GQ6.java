@@ -12,7 +12,7 @@ class Pair<K, V>{
     }
 }
 
-public class GenericsQ3 {
+public class GQ6 {
     public static void main(String[] args) {
         Pair<Integer,String> pair = new Pair<>();
         pair.setKandV(1,"one");
