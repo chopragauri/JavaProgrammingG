@@ -1,5 +1,5 @@
 package assignments.mod4_assignment;
-//for creating a user-defined generic class in Java. Provide an example.
+
 class Box<T> {
     private T item;
 

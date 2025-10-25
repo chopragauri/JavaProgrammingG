@@ -9,12 +9,10 @@ abstract class Book{
         this.author = author;
         this.price = price;
     }
-    void getDetails() {
-        System.out.println("Title: " + title);
-        System.out.println("Author: " + author);
-        System.out.println("Price: " + price);
-    }
+
+    void getDetails() {}
 }
+
 class Book1 extends Book{
     Book1(String title, String author, Double price) {
         super(title, author, price);
@@ -62,7 +60,7 @@ class NonFictionBook extends Book {
 //            book3.getDetails();
 //        }
 //    }
-public class BookstoreInventory {
+public class Q1 {
     public static void main(String[] args) {
         Book[] books = new Book[4];
         books[0] = new FictionBook("Book 1", "Gauri", 350.0, "RomCom");

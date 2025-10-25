@@ -7,7 +7,8 @@ class Operation2 {
 class Addition extends Operation2 {
     @Override
     public void calc(int a, int b) {
-        System.out.println("sum: " + (a + b));
+        int sum = a + b;
+        System.out.println(sum);
     }
 }
 class Subtraction extends Operation2 {

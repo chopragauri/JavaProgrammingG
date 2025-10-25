@@ -18,8 +18,7 @@ public class Q4 {
         }
     }
     public static void main(String[] args) {
-        Operation op;
-        op = new Addition();
+        Operation op = new Addition();
         op.calc(10, 5);
         Addition add = new Addition();
         add.calc(1, 2, 3);
