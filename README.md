@@ -66,7 +66,7 @@ src/
 
 ## 🔬 Highlights
 
-- **87 assignment problems** across 4 modules (52 + 11 + 17 + 7) — progressively increasing in complexity
+- **80+ assignment problems** across 4 modules — progressively increasing in complexity
 - **Concurrent programming** — BankAccount simulation with synchronized blocks, deadlock scenarios, thread priorities
 - **Generic data structures** — custom `Pair<T, U>` and `Container<T>` implementations
 - **Weekly lab sessions** — Aug through Oct, real-time problem solving under lab conditions
