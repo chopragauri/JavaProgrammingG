@@ -29,10 +29,10 @@ src/
 │   └── Oct6/
 │
 ├── assignments/              # Module-wise assignment problems
-│   ├── mod1_assignment/      # Java Basics & OOP (50+ problems)
-│   ├── mod2_assignment/      # Collections & Data Structures
-│   ├── mod3_assignment/      # Generics & Advanced OOP
-│   └── mod4_assignment/      # Multithreading & Concurrency
+│   ├── mod1_assignment/      # Java Basics & OOP (52 problems)
+│   ├── mod2_assignment/      # Collections & Data Structures (11 problems)
+│   ├── mod3_assignment/      # Generics & Advanced OOP (17 problems)
+│   └── mod4_assignment/      # Multithreading & Concurrency (7 problems)
 │
 ├── mod3/                     # Concurrency deep-dive
 │   ├── Singleton.java        # Singleton Design Pattern
@@ -66,7 +66,7 @@ src/
 
 ## 🔬 Highlights
 
-- **50+ assignment problems** across 4 modules — progressively increasing in complexity
+- **87 assignment problems** across 4 modules (52 + 11 + 17 + 7) — progressively increasing in complexity
 - **Concurrent programming** — BankAccount simulation with synchronized blocks, deadlock scenarios, thread priorities
 - **Generic data structures** — custom `Pair<T, U>` and `Container<T>` implementations
 - **Weekly lab sessions** — Aug through Oct, real-time problem solving under lab conditions
